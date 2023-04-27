@@ -12,6 +12,5 @@ public class Programa02CC {
         
         s.imprimir();
         
-        //System.out.println("Hello World!");
     }
 }

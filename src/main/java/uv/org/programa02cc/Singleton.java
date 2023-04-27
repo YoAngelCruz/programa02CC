@@ -1,5 +1,8 @@
 package uv.org.programa02cc;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Angel
@@ -19,7 +22,7 @@ public class Singleton {
     }
     
     public  void imprimir(){
-        System.out.println("holamundo");
+        Logger.getLogger(Singleton.class.getName()).log(Level.INFO, "hola mundo" );
     }
 
 }
